@@ -542,6 +542,10 @@ video {
   align-items: flex-end;
 }
 
+.justify-start {
+  justify-content: flex-start;
+}
+
 .justify-center {
   justify-content: center;
 }
@@ -553,6 +557,10 @@ video {
 .py-\[20px\] {
   padding-top: 20px;
   padding-bottom: 20px;
+}
+
+.pl-3 {
+  padding-left: 0.75rem;
 }
 
 .text-center {
@@ -672,6 +680,16 @@ video {
 
   .image img{
     width: 200px;
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:justify-center {
+    justify-content: center;
+  }
+
+  .md\:pl-0 {
+    padding-left: 0px;
   }
 }
 
